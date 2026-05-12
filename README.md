@@ -1,10 +1,10 @@
 # End-to-End Azure Data Engineering and Analytics Pipeline
 
-This project demonstrates an end-to-end Azure-based data engineering and analytics solution for customer booking and property analysis. The pipeline ingests raw datasets into Azure Data Lake Storage Gen2, processes them in Azure Synapse Analytics using PySpark, stores curated outputs in Delta Lake, loads analytics-ready tables into a Synapse Dedicated SQL Pool, and visualizes insights in Power BI [file:498].
+This project demonstrates an end-to-end Azure-based data engineering and analytics solution for customer booking and property analysis. The pipeline ingests raw datasets into Azure Data Lake Storage Gen2, processes them in Azure Synapse Analytics using PySpark, stores curated outputs in Delta Lake, loads analytics-ready tables into a Synapse Dedicated SQL Pool, and visualizes insights in Power BI .
 
 ## Project Overview
 
-The objective of this project is to build a scalable cloud analytics pipeline that transforms raw booking and property data into business-ready datasets for reporting and decision-making [file:498]. The implementation follows a modern Azure architecture that covers ingestion, transformation, storage, warehousing, validation, and visualization [file:498].
+The objective of this project is to build a scalable cloud analytics pipeline that transforms raw booking and property data into business-ready datasets for reporting and decision-making [file:498]. The implementation follows a modern Azure architecture that covers ingestion, transformation, storage, warehousing, validation, and visualization .
 
 ## Architecture
 
@@ -12,7 +12,7 @@ The solution follows this flow:
 
 `Raw Data Files → Azure Data Lake Storage Gen2 (ADLS) → Azure Synapse Analytics Spark Notebook → Delta Lake Tables → Data Cleansing and Transformation → Synapse Dedicated SQL Pool → Power BI Dashboard`
 
-This architecture supports a complete analytics lifecycle from raw data ingestion to enterprise reporting [file:498].
+This architecture supports a complete analytics lifecycle from raw data ingestion to enterprise reporting 
 
 ## Technologies Used
 
@@ -26,7 +26,7 @@ This architecture supports a complete analytics lifecycle from raw data ingestio
 
 ## Dataset
 
-The project uses one fact table and four dimension tables sourced from Kaggle and uploaded into ADLS for processing [file:498].
+The project uses one fact table and four dimension tables sourced from Kaggle and uploaded into ADLS for processing .
 
 ### Source files
 
