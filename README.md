@@ -4,7 +4,7 @@ This project demonstrates an end-to-end Azure-based data engineering and analyti
 
 ## Project Overview
 
-The objective of this project is to build a scalable cloud analytics pipeline that transforms raw booking and property data into business-ready datasets for reporting and decision-making [file:498]. The implementation follows a modern Azure architecture that covers ingestion, transformation, storage, warehousing, validation, and visualization .
+The objective of this project is to build a scalable cloud analytics pipeline that transforms raw booking and property data into business-ready datasets for reporting and decision-making. The implementation follows a modern Azure architecture that covers ingestion, transformation, storage, warehousing, validation, and visualization .
 
 ## Architecture
 
